@@ -19,7 +19,7 @@ export default {
     PropsTest
   },
   setup(){
-    const msg = ref('hello vue 組件--*****--');
+    const msg = ref('hello vue 組件--**-***--');
     return {
       msg
     }
