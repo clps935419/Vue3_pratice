@@ -16,7 +16,7 @@ export default {
 <template>
     <a class="title" @click="props.HandListShow">課程列表</a>
 </template>
-<style>
+<style scoped>
 .title {
         cursor: pointer;
         display: flex;

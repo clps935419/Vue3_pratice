@@ -18,7 +18,7 @@ export default {
       </article>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 article {
   width: 100%;
   height: 578px;

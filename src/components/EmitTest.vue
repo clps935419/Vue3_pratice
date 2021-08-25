@@ -25,6 +25,6 @@ export default {
 <template>
   <h1>{{num}}</h1>
 </template>
-<style>
+<style scoped>
 
 </style>

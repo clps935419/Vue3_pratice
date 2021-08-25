@@ -52,31 +52,29 @@ export default {
 </script>
 
 <template>
+  <!-- <PropsTest /> -->
+
   <!-- 組件練習 -->
-  <!-- <PropsTest />
   <Header/>
-  <Article/>
-  <Aside/>
-  <Main/>
-  <Footer/> -->
+  <router-view></router-view>
+  <Footer/>
 
   <!-- 參數父層至子層範例 -->
-  <TitleBar :HandListShow="HandListShow"/>
-  <Listitem :isOpen="isOpen"/>
+  <!-- <TitleBar :HandListShow="HandListShow"/> -->
+  <!-- <Listitem :isOpen="isOpen"/> -->
   <!--  -->
 
   <!-- 子傳父 -->
-  <EmitTest @CallBack="handCallBack" />
+  <!-- <EmitTest @CallBack="handCallBack" /> -->
   <!--  -->
 
   <!-- function 傳$event範例、利用ref綁定DOM範例-->
-  <EventBack />
+  <!-- <EventBack /> -->
   <!--  -->
 
   <!-- 測試SLOT功能 -->
-  <slots-title>Leonard</slots-title>
-  <slots-title>test</slots-title>
-
+  <!-- <slots-title>Leonard</slots-title>
+  <slots-title>test</slots-title> -->
   <!--  -->
 </template>
 

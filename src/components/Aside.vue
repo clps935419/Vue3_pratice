@@ -17,7 +17,7 @@ export default {
       </aside>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 aside {
   width: 100%;
   height: 245px;
