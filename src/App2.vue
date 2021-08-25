@@ -9,6 +9,9 @@ import PropsTest from '@/components/PropsTest.vue';
 import TitleBar from '@/components/TitleBar.vue';
 import Listitem from '@/components/Listitem.vue';
 import EmitTest from '@/components/EmitTest.vue';
+import EventBack from '@/components/EventBack.vue';
+import SlotsTitle from '@/components/SlotsTitle.vue';
+
 
 import { ref } from '@vue/reactivity';
 
@@ -22,7 +25,9 @@ export default {
     PropsTest,
     TitleBar,
     Listitem,
-    EmitTest
+    EmitTest,
+    EventBack,
+    SlotsTitle
   },
   setup(){
     
@@ -62,6 +67,16 @@ export default {
 
   <!-- 子傳父 -->
   <EmitTest @CallBack="handCallBack" />
+  <!--  -->
+
+  <!-- function 傳$event範例、利用ref綁定DOM範例-->
+  <EventBack />
+  <!--  -->
+
+  <!-- 測試SLOT功能 -->
+  <slots-title>Leonard</slots-title>
+  <slots-title>test</slots-title>
+
   <!--  -->
 </template>
 
